@@ -1,0 +1,216 @@
+/* Platinum Scrollbars */
+.platinum-scrollbars::-webkit-scrollbar {
+  width: 16px;
+}
+.platinum-scrollbars::-webkit-scrollbar-button:end {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #dedede;
+  box-shadow: 1px 1px 0 #ffffff inset,
+    -1px -1px 0 #bcbcbc inset;
+}
+.platinum-scrollbars::-webkit-scrollbar-button:end:vertical {
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.platinum-scrollbars::-webkit-scrollbar-button:end:vertical:decrement {
+  background: 
+    linear-gradient(
+      transparent 75%, black 75%
+    )
+    center center / 8px 4px
+    no-repeat,
+    linear-gradient(
+      transparent 50%, black 50%
+    )
+    center center / 6px 4px
+    no-repeat,
+    linear-gradient(
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      black 50%, black 50%
+    )
+    center center / 2px 4px
+    no-repeat,
+    #dedede;
+}
+.platinum-scrollbars::-webkit-scrollbar-button:end:vertical:increment {
+  background: 
+    linear-gradient(
+      to top,
+      transparent 75%, black 75%
+    )
+    center center / 8px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 50%, black 50%
+    )
+    center center / 6px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      black 50%, black 50%
+    )
+    center center / 2px 4px
+    no-repeat,
+    #dedede;
+  height: 15px;
+  border-bottom: none;
+}
+.platinum-scrollbars::-webkit-scrollbar-button:end:horizontal {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+.platinum-scrollbars::-webkit-scrollbar-button:end:horizontal:decrement {
+  background: 
+    linear-gradient(
+      to right,
+      transparent 75%, black 75%
+    )
+    center center / 4px 8px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 50%, black 50%
+    )
+    center center / 4px 6px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to right,
+      black 50%, black 50%
+    )
+    center center / 4px 2px
+    no-repeat,
+    #dedede;
+}
+.platinum-scrollbars::-webkit-scrollbar-button:end:horizontal:increment {
+  background: 
+    linear-gradient(
+      to left,
+      transparent 75%, black 75%
+    )
+    center center / 4px 8px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 50%, black 50%
+    )
+    center center / 4px 6px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to left,
+      black 50%, black 50%
+    )
+    center center / 4px 2px
+    no-repeat,
+    #dedede;
+  width: 15px;
+  border-right: none;
+}
+.platinum-scrollbars::-webkit-scrollbar-track {
+  background-color: #aaaaab;
+  border: 1px solid #000000;
+}
+.platinum-scrollbars::-webkit-scrollbar-track:vertical {
+  box-shadow: 1px 1px 0 #787877 inset,
+    -1px 2px 0 #cdcccd inset,
+    2px 0 0 #888889 inset,
+    -2px 0 0 #bcbcbc inset;
+}
+.platinum-scrollbars::-webkit-scrollbar-track:horizontal {
+  box-shadow: 1px 1px 0 #787877 inset,
+    2px -1px 0 #cdcccd inset,
+    0 2px 0 #888889 inset,
+    0 -2px 0 #bcbcbc inset;
+}
+.platinum-scrollbars::-webkit-scrollbar-thumb {
+  box-shadow: 1px 1px 0px #cdcdfc inset,
+    -1px -1px 0px #6867c6 inset;
+  width: 14px;
+  border: 1px solid #000000;
+}
+.platinum-scrollbars::-webkit-scrollbar-thumb:vertical {
+  background: 
+    linear-gradient(
+      transparent 12.5%, #353594 12.5%,
+      #353594 25%, transparent 25%,
+      transparent 37.5%, #353594 37.5%,
+      #353594 50%, transparent 50%,
+      transparent 62.5%, #353594 62.5%,
+      #353594 75%, transparent 75%,
+      transparent 87.5%, #353594 87.5%
+    )
+    center center / 7px 8px
+    no-repeat,
+    linear-gradient(
+      #cdcdfc 12.5%, transparent 12.5%,
+      transparent 25%, #cdcdfc 25%,
+      #cdcdfc 37.5%, transparent 37.5%,
+      transparent 50%, #cdcdfc 50%,
+      #cdcdfc 62.5%, transparent 62.5%,
+      transparent 75%, #cdcdfc 75%,
+      #cdcdfc 87.5%, transparent 87.5%
+    )
+    49% center / 7px 8px
+    no-repeat,
+    #9b9bf9;
+}
+.platinum-scrollbars::-webkit-scrollbar-thumb:horizontal {
+  background: 
+    linear-gradient(
+      to right,
+      transparent 12.5%, #353594 12.5%,
+      #353594 25%, transparent 25%,
+      transparent 37.5%, #353594 37.5%,
+      #353594 50%, transparent 50%,
+      transparent 62.5%, #353594 62.5%,
+      #353594 75%, transparent 75%,
+      transparent 87.5%, #353594 87.5%
+    )
+    center center / 8px 7px
+    no-repeat,
+    linear-gradient(
+      to right,
+      #cdcdfc 12.5%, transparent 12.5%,
+      transparent 25%, #cdcdfc 25%,
+      #cdcdfc 37.5%, transparent 37.5%,
+      transparent 50%, #cdcdfc 50%,
+      #cdcdfc 62.5%, transparent 62.5%,
+      transparent 75%, #cdcdfc 75%,
+      #cdcdfc 87.5%, transparent 87.5%
+    )
+    center 49% / 8px 7px
+    no-repeat,
+    #9b9bf9;
+}
+.platinum-scrollbars::-webkit-scrollbar-corner {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  box-shadow: 1px 1px 0 #ffffff inset;
+  background: #cdcccd;
+}

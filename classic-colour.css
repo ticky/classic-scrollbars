@@ -1,0 +1,301 @@
+/* Classic Colour Scrollbars */
+.classic-colour-scrollbars::-webkit-scrollbar {
+  width: 16px;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-button:start:decrement,
+.classic-colour-scrollbars::-webkit-scrollbar-button:end:increment {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000000;
+  background-color: #dedede;
+  box-shadow: -1px -1px 0 #787877 inset,
+    1px 1px 0 #ffffff inset;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-button:vertical:decrement {
+  border-top: 1px solid #000000;
+  background:
+    linear-gradient(
+      #343463 10%,
+      #a4a4d4 10%, #a4a4d4 90%,
+      transparent 90% 
+    )
+    49% center / 1px 10px
+    no-repeat,
+    linear-gradient(
+      transparent 10%,
+      #343463 10%, #343463 20%,
+      #a4a4d4 20%, #a4a4d4 90%,
+      #343463 90%, #343463
+    )
+    49% center / 3px 10px
+    no-repeat,
+    linear-gradient(
+      transparent 20%,
+      #343463 20%, #343463 30%,
+      #a4a4d4 30%, #a4a4d4 50%,
+      #343463 50%, #343463
+    )
+    49% center / 5px 10px
+    no-repeat,
+    linear-gradient(
+      transparent 30%,
+      #343463 30%, #343463 40%,
+      #a4a4d4 40%, #a4a4d4 50%,
+      #343463 50%, #343463 60%,
+      transparent 60%
+    )
+    49% center / 7px 10px
+    no-repeat,
+    linear-gradient(
+      transparent 40%,
+      #343463 40%, #343463 60%,
+      transparent 60%
+    )
+    49% center / 9px 10px
+    no-repeat,
+    linear-gradient(
+      transparent 50%,
+      #343463 50%, #343463 60%,
+      transparent 60%
+    )
+    49% center / 11px 10px
+    no-repeat,
+    #dedede;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-button:vertical:increment {
+  border-bottom: 1px solid #000000;
+  background:
+    linear-gradient(
+      to top,
+      #343463 10%,
+      #a4a4d4 10%, #a4a4d4 90%,
+      transparent 90% 
+    )
+    49% center / 1px 10px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 10%,
+      #343463 10%, #343463 20%,
+      #a4a4d4 20%, #a4a4d4 90%,
+      #343463 90%, #343463
+    )
+    49% center / 3px 10px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 20%,
+      #343463 20%, #343463 30%,
+      #a4a4d4 30%, #a4a4d4 50%,
+      #343463 50%, #343463
+    )
+    49% center / 5px 10px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 30%,
+      #343463 30%, #343463 40%,
+      #a4a4d4 40%, #a4a4d4 50%,
+      #343463 50%, #343463 60%,
+      transparent 60%
+    )
+    49% center / 7px 10px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 40%,
+      #343463 40%, #343463 60%,
+      transparent 60%
+    )
+    49% center / 9px 10px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 50%,
+      #343463 50%, #343463 60%,
+      transparent 60%
+    )
+    49% center / 11px 10px
+    no-repeat,
+    #dedede;
+  height: 15px;
+  border-bottom: none;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-button:horizontal:decrement {
+  background:
+    linear-gradient(
+      to right,
+      #343463 10%,
+      #a4a4d4 10%, #a4a4d4 90%,
+      transparent 90% 
+    )
+    center 49% / 10px 1px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 10%,
+      #343463 10%, #343463 20%,
+      #a4a4d4 20%, #a4a4d4 90%,
+      #343463 90%, #343463
+    )
+    center 49% / 10px 3px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 20%,
+      #343463 20%, #343463 30%,
+      #a4a4d4 30%, #a4a4d4 50%,
+      #343463 50%, #343463
+    )
+    center 49% / 10px 5px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 30%,
+      #343463 30%, #343463 40%,
+      #a4a4d4 40%, #a4a4d4 50%,
+      #343463 50%, #343463 60%,
+      transparent 60%
+    )
+    center 49% / 10px 7px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 40%,
+      #343463 40%, #343463 60%,
+      transparent 60%
+    )
+    center 49% / 10px 9px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 50%,
+      #343463 50%, #343463 60%,
+      transparent 60%
+    )
+    center 49% / 10px 11px
+    no-repeat,
+    #dedede;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-button:horizontal:increment {
+  background:
+    linear-gradient(
+      to left,
+      #343463 10%,
+      #a4a4d4 10%, #a4a4d4 90%,
+      transparent 90% 
+    )
+    center 49% / 10px 1px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 10%,
+      #343463 10%, #343463 20%,
+      #a4a4d4 20%, #a4a4d4 90%,
+      #343463 90%, #343463
+    )
+    center 49% / 10px 3px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 20%,
+      #343463 20%, #343463 30%,
+      #a4a4d4 30%, #a4a4d4 50%,
+      #343463 50%, #343463
+    )
+    center 49% / 10px 5px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 30%,
+      #343463 30%, #343463 40%,
+      #a4a4d4 40%, #a4a4d4 50%,
+      #343463 50%, #343463 60%,
+      transparent 60%
+    )
+    center 49% / 10px 7px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 40%,
+      #343463 40%, #343463 60%,
+      transparent 60%
+    )
+    center 49% / 10px 9px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 50%,
+      #343463 50%, #343463 60%,
+      transparent 60%
+    )
+    center 49% / 10px 11px
+    no-repeat,
+    #dedede;
+  width: 15px;
+  border-right: none;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-track {
+  /* Had to resort to an image here; disappointing, I know */
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAYAAAB/qH1jAAAAEUlEQVQIHWOoqCj/z4ANwCQAWbIEzc53QXkAAAAASUVORK5CYII='),
+    #dedede;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-track:vertical {
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-track:horizontal {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-thumb {
+  width: 14px;
+  box-shadow: -1px -1px 0px #343463 inset,
+    1px 1px 0px #cdcdfc inset;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-thumb:vertical {
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-top: 1px solid #555655;
+  background:
+    linear-gradient(
+      #a4a4d4 10%, #cdcdfc 10%,
+      #cdcdfc 20%, #676796 20%,
+      #676796 30%, #cdcdfc 30%,
+      #cdcdfc 40%, #676796 40%,
+      #676796 50%, #cdcdfc 50%,
+      #cdcdfc 60%, #676796 60%,
+      #676796 70%, #cdcdfc 70%,
+      #cdcdfc 80%, #676796 80%,
+      #676796 90%, #cdcdfc 90%
+    )
+    49% center / 5px 10px
+    no-repeat,
+    #aaaaab;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-thumb:horizontal {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #555655;
+  background:
+    linear-gradient(
+      to right,
+      #a4a4d4 10%, #cdcdfc 10%,
+      #cdcdfc 20%, #676796 20%,
+      #676796 30%, #cdcdfc 30%,
+      #cdcdfc 40%, #676796 40%,
+      #676796 50%, #cdcdfc 50%,
+      #cdcdfc 60%, #676796 60%,
+      #676796 70%, #cdcdfc 70%,
+      #cdcdfc 80%, #676796 80%,
+      #676796 90%, #cdcdfc 90%
+    )
+    center 49% / 10px 5px
+    no-repeat,
+    #aaaaab;
+}
+.classic-colour-scrollbars::-webkit-scrollbar-corner {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
