@@ -1,0 +1,17 @@
+{
+  "name": "classic-scrollbars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jessica Stokes <hello@jessicastokes.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /ip/",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "parcel-bundler": "^1.8.1"
+  }
+}
