@@ -237,8 +237,9 @@
   border-right: none;
 }
 .classic-colour-scrollbars::-webkit-scrollbar-track {
-  /* Had to resort to an image here; disappointing, I know */
-  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAYAAAB/qH1jAAAAEUlEQVQIHWOoqCj/z4ANwCQAWbIEzc53QXkAAAAASUVORK5CYII='),
+  background:
+    radial-gradient(circle at 0.5px 0.5px, #787877 0.5px, transparent 0.5px) 0 / 4px 2px repeat,
+    radial-gradient(circle at 2.5px 1.5px, #787877 0.5px, transparent 0.5px) 0 / 4px 2px repeat,
     #dedede;
 }
 .classic-colour-scrollbars::-webkit-scrollbar-track:vertical {
